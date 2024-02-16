@@ -9,7 +9,7 @@ public class CIController {
 
     @GetMapping("/hello")
     public String greeting(){
-        return "Hello!!!";
+        return "Hello World !!!";
     }
     @GetMapping("/check")
     public String check(){
